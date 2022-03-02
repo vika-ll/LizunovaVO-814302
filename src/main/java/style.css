@@ -1,0 +1,56 @@
+.toggle-button {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #0065c1;
+}
+
+.toggle-button:disabled {
+    -fx-background-color: #BFBFBF;
+    -fx-text-fill: #ffffff;
+}
+
+.secondary{
+    -fx-background-color: #ffffff00;
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+}
+
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #D3D3D3;
+}
+
+.combo-box .label {
+    -fx-text-fill: #D3D3D3;
+}
+.combo-box > .list-cell {
+    -fx-text-fill: #C0C0C0;
+}
+
+.table-view {
+    -fx-border-color: #000000;
+    -fx-background-color: EAEEFB;
+}
+
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: #000000;
+}
+.table-view .column-header-background{
+    -fx-background-color: EAEEFB;
+    -fx-background-insets: 0 0 0 0;
+    -fx-padding: 0 0 0 0;
+}
+
+/*.table-view .table-cell{*/
+/*    -fx-background-color: EAEEFB;*/
+/*}*/
+
+.table-view .table-row-cell {
+    -fx-background-color: EAEEFB;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #0065c1;
+}
+

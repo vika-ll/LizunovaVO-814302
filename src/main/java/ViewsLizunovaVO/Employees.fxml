@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="662.0" prefWidth="1219.0" xmlns="http://javafx.com/javafx/11.0.1" style="-fx-background-color: EAEEFB;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersLizunovaVO.EmployeesControllerLizunovaVO">
+    <children>
+        <TableView fx:id="tableView" layoutX="300.0" layoutY="51.0" prefHeight="532.0" prefWidth="902.0">
+            <columns>
+                <TableColumn fx:id="surname" prefWidth="127.59999084472656" text="Фамилия" />
+                <TableColumn fx:id="name" prefWidth="107.60000610351562" text="Имя" />
+                <TableColumn fx:id="secondName" prefWidth="136.0" text="Отчество" />
+                <TableColumn fx:id="specialization" prefWidth="122.0" text="Специализация" />
+                <TableColumn fx:id="department" prefWidth="125.0" text="Департамент" />
+            </columns>
+        </TableView>
+        <Button fx:id="back" layoutX="14.0" layoutY="9.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="250.0" text="На главную" textFill="#0026ff" />
+        <Button fx:id="addNewEmployee" layoutX="14.0" layoutY="51.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Добавить" textFill="#0026ff" />
+        <Button fx:id="edit" layoutX="14.0" layoutY="156.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Редактировать запись" textFill="#0026ff" />
+        <Button fx:id="saveChanges" layoutX="14.0" layoutY="331.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Сохранить" textFill="#0026ff" />
+        <Button fx:id="delete" layoutX="14.0" layoutY="83.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Удалить" textFill="#0026ff" />
+
+        <TextField fx:id="editSurname" layoutX="14.0" layoutY="191.0" prefHeight="25.0" prefWidth="250.0" promptText="Фамилия" />
+        <TextField fx:id="editName" layoutX="14.0" layoutY="226.0" prefHeight="25.0" prefWidth="250.0" promptText="Имя" />
+        <TextField fx:id="editSecondName" layoutX="14.0" layoutY="261.0" prefHeight="25.0" prefWidth="250.0" promptText="Отчество" />
+        <ComboBox fx:id="editSpecialization" layoutX="14.0" layoutY="296.0" prefHeight="25.0" prefWidth="250.0" promptText="Специализация" />
+
+    </children>
+</AnchorPane>

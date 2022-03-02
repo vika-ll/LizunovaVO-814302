@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="592.0" prefWidth="1168.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" style="-fx-background-color: EAEEFB;" fx:controller="ControllersLizunovaVO.UserWindowControllerLizunovaVO">
+   <children>
+      <TableView fx:id="tableView" layoutX="9.0" layoutY="67.0" prefHeight="428.0" prefWidth="1152.0">
+         <columns>
+            <TableColumn fx:id="taskName" prefWidth="63.0" text="Название&#10;задачи" />
+            <TableColumn fx:id="complexity" prefWidth="161.60000610351562" text="Cложность&#10;логики" />
+            <TableColumn fx:id="modulesCount" prefWidth="59.0" text="Число&#10;модулей" />
+            <TableColumn fx:id="priority" prefWidth="54.999969482421875" text="Приоритетность" />
+            <TableColumn fx:id="requirementsSpecification" prefWidth="86.79998779296875" text="Детализация&#10;требований" />
+            <TableColumn fx:id="developmentArea" prefWidth="63.199951171875" text="Область&#10;разработки" />
+            <TableColumn fx:id="status" prefWidth="62.199951171875" text="Статус&#10;задачи" />
+            <TableColumn fx:id="performance" prefWidth="59.79998779296875" text="Производительность" />
+            <TableColumn fx:id="employee" prefWidth="66.5999755859375" text="Исполнитель" />
+            <TableColumn fx:id="project" prefWidth="50.60003662109375" text="Проект" />
+            <TableColumn fx:id="time" prefWidth="80.199951171875" text="Время" />
+         </columns>
+      </TableView>
+      <TextField fx:id="searchField" layoutX="840.0" layoutY="20.0" prefHeight="26.0" prefWidth="247.0" promptText="Название задачи" />
+      <Button fx:id="search" layoutX="1091.0" layoutY="20.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Поиск" textFill="#1300ff" />
+      <Button fx:id="back" layoutX="9.0" layoutY="20.0" mnemonicParsing="false" text="Сменить аккаунт" textFill="#0009ff" />
+   </children>
+</AnchorPane>

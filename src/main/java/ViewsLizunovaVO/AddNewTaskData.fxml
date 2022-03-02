@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="662.0" prefWidth="1219.0" xmlns="http://javafx.com/javafx/11.0.1" style="-fx-background-color: EAEEFB;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersLizunovaVO.AddNewTaskDataLizunovaVO">
+   <children>
+
+      <Label layoutX="495.0" layoutY="41.0" text="Добавить задачу" textFill="#310908">
+         <font>
+            <Font name="Times New Roman" size="32.0" />
+         </font>
+      </Label>
+
+      <TextField fx:id="edit_taskName" layoutX="409.0" layoutY="109.0" prefHeight="35.0" prefWidth="400.0" promptText="Название задачи" />
+      <ComboBox fx:id="edit_complexity" layoutX="409.0" layoutY="149.0" prefHeight="35.0" prefWidth="400.0" promptText="Сложность логики" />
+      <TextField fx:id="edit_modulesCount" layoutX="409.0" layoutY="189.0" prefHeight="35.0" prefWidth="400.0" promptText="Число модулей" />
+      <ComboBox fx:id="edit_priority" layoutX="409.0" layoutY="229.0" prefHeight="35.0" prefWidth="400.0" promptText="Приоритетность" />
+      <ComboBox fx:id="edit_requirementsSpecification" layoutX="409.0" layoutY="269.0" prefHeight="35.0" prefWidth="400.0" promptText="Детализация требований" />
+      <ComboBox fx:id="edit_developmentArea" layoutX="409.0" layoutY="309.0" prefHeight="35.0" prefWidth="400.0" promptText="Область разработки" />
+      <ComboBox fx:id="edit_status" layoutX="409.0" layoutY="349.0" prefHeight="35.0" prefWidth="400.0" promptText="Статус задачи" />
+      <TextField fx:id="edit_performance" layoutX="409.0" layoutY="389.0" prefHeight="35.0" prefWidth="400.0" promptText="Производительность" />
+      <ComboBox fx:id="edit_project" layoutX="409.0" layoutY="429.0" prefHeight="35.0" prefWidth="400.0" promptText="Проект" />
+      <ComboBox fx:id="edit_employee" layoutX="409.0" layoutY="469.0" prefHeight="35.0" prefWidth="400.0" promptText="Исполнитель" />
+      <Button fx:id="addData" layoutX="409.0" prefWidth="400.0" prefHeight="40.0" layoutY="529.0" mnemonicParsing="false" text="Добавить задачу" textFill="#1300ff">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+      <Button fx:id="back" layoutX="8.0" layoutY="8.0" prefWidth="100.0" mnemonicParsing="false" text="Назад" textFill="#1300ff" />
+   </children>
+</AnchorPane>

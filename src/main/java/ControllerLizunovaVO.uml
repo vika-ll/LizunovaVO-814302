@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ControllersLizunovaVO.ControllerLizunovaVO</OriginalElement>
+  <nodes>
+    <node x="0.0" y="2203.0">ClassesLizunovaVO.PositionLizunovaVO</node>
+    <node x="854.0" y="2203.0">ClassesLizunovaVO.DepartmentLizunovaVO</node>
+    <node x="769.0" y="464.0">ControllersLizunovaVO.AddNewUserControllerLizunovaVO</node>
+    <node x="2456.0" y="1136.0">ClassesLizunovaVO.UserLizunovaVO</node>
+    <node x="0.0" y="475.0">ControllersLizunovaVO.SignUPControllerLizunovaVO</node>
+    <node x="1510.0" y="2203.0">ClassesLizunovaVO.RoleLizunovaVO</node>
+    <node x="1836.25" y="0.0">ControllersLizunovaVO.ControllerLizunovaVO</node>
+    <node x="473.0" y="2203.0">ClassesLizunovaVO.DevelopmentFieldLizunovaVO</node>
+    <node x="3688.0" y="321.0">ControllersLizunovaVO.ViewUsersControllerLizunovaVO</node>
+    <node x="1953.0" y="134.0">ControllersLizunovaVO.AdminWindowControllerLizunovaVO</node>
+    <node x="2800.0" y="508.0">ControllersLizunovaVO.SignInControllerLizunovaVO</node>
+    <node x="1588.0" y="486.0">ControllersLizunovaVO.AddNewEmployeeControllerLizunovaVO</node>
+    <node x="1964.75" y="1136.0">DatabaseLizunovaVO.DBConnectLizunovaVO</node>
+    <node x="3055.0" y="1136.0">ClassesLizunovaVO.EmployeeLizunovaVO</node>
+    <node x="1806.0" y="2203.0">ClassesLizunovaVO.TaskStatusLizunovaVO</node>
+    <node x="2435.0" y="563.0">ControllersLizunovaVO.PieChartStatisticsControllerLizunovaVO</node>
+    <node x="1106.0" y="420.0">ControllersLizunovaVO.AddNewTaskDataLizunovaVO</node>
+    <node x="1197.0" y="2203.0">ClassesLizunovaVO.ProjectLizunovaVO</node>
+    <node x="337.0" y="398.0">ControllersLizunovaVO.EmployeesControllerLizunovaVO</node>
+    <node x="3603.0" y="1136.0">ClassesLizunovaVO.ProfileLizunovaVO</node>
+    <node x="436.0" y="1136.0">ClassesLizunovaVO.TaskLizunovaVO</node>
+    <node x="0.0" y="1136.0">DatabaseLizunovaVO.ConstLizunovaVO</node>
+    <node x="1638.0" y="1328.0">DatabaseLizunovaVO.DBHandlerLizunovaVO</node>
+    <node x="2112.0" y="1482.0">DatabaseLizunovaVO.DbConnectionLizunovaVO</node>
+    <node x="3210.0" y="343.0">ControllersLizunovaVO.UserWindowControllerLizunovaVO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ControllersLizunovaVO.PieChartStatisticsControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-49.5" />
+      <point x="2607.5" y="104.0" />
+      <point x="2013.0500000000002" y="104.0" />
+      <point x="40.80000000000018" y="27.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.AdminWindowControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-478.5" />
+      <point x="2184.0" y="114.0" />
+      <point x="1985.85" y="114.0" />
+      <point x="13.599999999999909" y="27.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.AddNewUserControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-148.5" />
+      <point x="927.5" y="94.0" />
+      <point x="1904.25" y="94.0" />
+      <point x="-68.0" y="27.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.ViewUsersControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-291.5" />
+      <point x="3876.5" y="74.0" />
+      <point x="2094.65" y="74.0" />
+      <point x="122.40000000000009" y="27.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.SignInControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-104.5" />
+      <point x="2995.0" y="94.0" />
+      <point x="2040.25" y="94.0" />
+      <point x="68.0" y="27.0" />
+    </edge>
+    <edge source="DatabaseLizunovaVO.DbConnectionLizunovaVO" target="DatabaseLizunovaVO.DBConnectLizunovaVO">
+      <point x="0.0" y="-72.0" />
+      <point x="2261.5" y="1303.0" />
+      <point x="2112.5" y="1303.0" />
+      <point x="49.25" y="71.0" />
+    </edge>
+    <edge source="DatabaseLizunovaVO.DBHandlerLizunovaVO" target="DatabaseLizunovaVO.DBConnectLizunovaVO">
+      <point x="0.0" y="-226.0" />
+      <point x="1865.0" y="1303.0" />
+      <point x="2014.0" y="1303.0" />
+      <point x="-49.25" y="71.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.EmployeesControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-214.5" />
+      <point x="543.0" y="84.0" />
+      <point x="1877.0499999999997" y="84.0" />
+      <point x="-95.20000000000005" y="27.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.AddNewTaskDataLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-192.5" />
+      <point x="1337.0" y="104.0" />
+      <point x="1931.4499999999998" y="104.0" />
+      <point x="-40.80000000000018" y="27.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.AddNewEmployeeControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-126.5" />
+      <point x="1760.5" y="114.0" />
+      <point x="1958.65" y="114.0" />
+      <point x="-13.599999999999909" y="27.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.UserWindowControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-269.5" />
+      <point x="3439.0" y="84.0" />
+      <point x="2067.45" y="84.0" />
+      <point x="95.19999999999982" y="27.0" />
+    </edge>
+    <edge source="ControllersLizunovaVO.SignUPControllerLizunovaVO" target="ControllersLizunovaVO.ControllerLizunovaVO">
+      <point x="0.0" y="-137.5" />
+      <point x="158.5" y="74.0" />
+      <point x="1849.85" y="74.0" />
+      <point x="-122.40000000000009" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.2935002018570852" x="2032.5" y="1228.5" />
+  <SelectedNodes>
+    <node>ControllersLizunovaVO.ControllerLizunovaVO</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

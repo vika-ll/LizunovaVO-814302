@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="662.0" prefWidth="1219.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" style="-fx-background-color: EAEEFB;" fx:controller="ControllersLizunovaVO.AddNewEmployeeControllerLizunovaVO">
+<children>
+    <Label layoutX="460.0" layoutY="91.0" prefWidth="400.0" text="Добавить сотрудника" textFill="#310908">
+        <font>
+            <Font name="Times New Roman" size="32.0" />
+        </font>
+    </Label>
+    <TextField fx:id="userName" layoutX="409.0" prefHeight="35.0" prefWidth="400.0" layoutY="199.0" promptText="Имя" />
+    <TextField fx:id="userSurname" layoutX="409.0" prefHeight="35.0" prefWidth="400.0" layoutY="159.0" promptText="Фамилия" />
+    <TextField fx:id="userSecondName" layoutX="409.0" prefHeight="35.0" prefWidth="400.0" layoutY="239.0" promptText="Отчество" />
+    <ComboBox fx:id="specialization" layoutX="409.0" prefHeight="35.0" prefWidth="400.0" layoutY="279.0" promptText="Специализация" />
+    <ComboBox fx:id="department" layoutX="409.0" prefHeight="35.0" prefWidth="400.0" layoutY="319.0" promptText="Департамент" />
+    <Button fx:id="AddButton" layoutX="409.0" prefHeight="35.0"  prefWidth="400.0" layoutY="369.0" mnemonicParsing="false" text="Добавить" textFill="#3400ff" />
+    <Button fx:id="back" layoutX="14.0" layoutY="13.0" prefWidth="100.0" mnemonicParsing="false" text="Назад" textFill="#3300ff" />
+</children>
+</AnchorPane>
+

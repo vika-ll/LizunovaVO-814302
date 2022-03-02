@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="662.0" prefWidth="1219.0" style="-fx-background-color: EAEEFB;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersLizunovaVO.PieChartStatisticsControllerLizunovaVO">
+   <children>
+      <Label layoutX="510.0" layoutY="50.0" prefWidth="400.0" text="Статистика" textFill="#310908">
+         <font>
+            <Font name="Times New Roman" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Назад" textFill="BLUE" />
+      <PieChart fx:id="pieChart" layoutX="200.0" layoutY="50.0" prefHeight="600.0" prefWidth="800.0" title="" />
+   </children>
+</AnchorPane>

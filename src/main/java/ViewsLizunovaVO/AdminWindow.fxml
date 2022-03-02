@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="1219.0" style="-fx-background-color: EAEEFB;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersLizunovaVO.AdminWindowControllerLizunovaVO">
+   <children>
+      <TableView fx:id="tableView" layoutX="192.0" layoutY="62.0" prefHeight="523.0" prefWidth="1006.0" >
+         <columns>
+            <TableColumn fx:id="taskName" prefWidth="63.0" text="Название&#10;задачи"  />
+            <TableColumn fx:id="complexity" prefWidth="161.60000610351562" text="Cложность&#10;логики" />
+            <TableColumn fx:id="modulesCount" prefWidth="59.0" text="Число&#10;модулей" />
+            <TableColumn fx:id="priority" prefWidth="54.999969482421875" text="Приоритетность" />
+            <TableColumn fx:id="requirementsSpecification" prefWidth="86.79998779296875" text="Детализация&#10;требований" />
+            <TableColumn fx:id="developmentArea" prefWidth="63.199951171875" text="Область&#10;разработки" />
+            <TableColumn fx:id="status" prefWidth="62.199951171875" text="Статус&#10;задачи" />
+            <TableColumn fx:id="performance" prefWidth="59.79998779296875" text="Производительность" />
+            <TableColumn fx:id="employee" prefWidth="66.5999755859375" text="Исполнитель"  />
+            <TableColumn fx:id="project" prefWidth="50.60003662109375" text="Проект" />
+            <TableColumn fx:id="time" prefWidth="80.199951171875" text="Время"  />
+         </columns>
+      </TableView>
+      <Button fx:id="statistics"  layoutX="377.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="176.0" text="Статистика" textFill="#1300ff" />
+      <Button fx:id="reload" layoutX="14.0" layoutY="97.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Обновить" textFill="#1300ff" />
+      <Button fx:id="add" layoutX="14.0" layoutY="63.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Добавить" textFill="#1300ff" />
+      <TextField fx:id="calcTimeField" layoutX="860.0" layoutY="593.0" prefHeight="25.0" prefWidth="162.0" promptText="Время" />
+      <Button fx:id="calcTime" layoutX="1035.0" layoutY="593.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Рассчитать время" textFill="#1300ff" />
+      <Button fx:id="manageUsers" layoutX="192.0" layoutY="593.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" text="Управление пользователями" textFill="#1300ff" />
+      <Button fx:id="delete" layoutX="14.0" layoutY="131.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Удалить" textFill="#1300ff" />
+      <Button fx:id="signIN" layoutX="15.0" layoutY="22.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="162.0" text="Вернуться к авторизации " textFill="#1300ff" />
+      <TextField fx:id="searchField" layoutX="864.0" layoutY="20.0" prefHeight="26.0" prefWidth="247.0" promptText="Название задачи" />
+      <Button fx:id="search" layoutX="1115.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Поиск" textFill="#1300ff" />
+      <Button fx:id="edit" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Редактировать запись" textFill="#1300ff" />
+      <Button fx:id="save" layoutX="14.0" layoutY="556.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Сохранить изменения" textFill="#1300ff" />
+      <Button fx:id="manageEmployees" layoutX="562.0" layoutY="21.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="133.0" text="Исполнители" textFill="#1300ff" />
+      <TextField fx:id="edit_taskName" layoutX="14.0" layoutY="224.0" prefHeight="25.0" prefWidth="162.0" promptText="Название задачи" />
+      <ComboBox fx:id="edit_complexity" layoutX="14.0" layoutY="256.0" prefHeight="25.0" prefWidth="162.0" promptText="Сложность логики" />
+      <TextField fx:id="edit_modulesCount" layoutX="14.0" layoutY="288.0" prefHeight="25.0" prefWidth="162.0" promptText="Число модулей" />
+      <ComboBox fx:id="edit_priority" layoutX="14.0" layoutY="320.0" prefHeight="25.0" prefWidth="162.0" promptText="Приоритетность" />
+      <ComboBox fx:id="edit_requirementsSpecification" layoutX="14.0" layoutY="352.0" prefHeight="25.0" prefWidth="162.0" promptText="Детализация требований" />
+      <ComboBox fx:id="edit_developmentArea" layoutX="14.0" layoutY="384.0" prefHeight="25.0" prefWidth="162.0" promptText="Область разработки" />
+      <ComboBox fx:id="edit_status" layoutX="14.0" layoutY="416.0" prefHeight="25.0" prefWidth="162.0" promptText="Статус задачи" />
+      <TextField fx:id="edit_performance" layoutX="14.0" layoutY="448.0" prefHeight="25.0" prefWidth="162.0" promptText="Производительность" />
+      <ComboBox fx:id="edit_project" layoutX="14.0" layoutY="480.0" prefHeight="25.0" prefWidth="162.0" promptText="Проект" />
+      <ComboBox fx:id="edit_employee" layoutX="15.0" layoutY="512.0" prefHeight="25.0" prefWidth="162.0" promptText="Исполнитель"  />
+      <Button fx:id="saveFile" layoutX="192.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="176.0" text="Сохранить отчет" textFill="#1300ff" />
+   </children>
+</AnchorPane>

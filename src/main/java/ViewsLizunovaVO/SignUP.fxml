@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="1219.0" style="-fx-background-color: EAEEFB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllersLizunovaVO.SignUPControllerLizunovaVO">
+    <children>
+        <Label layoutX="500.0" layoutY="80.0" prefHeight="86.0" prefWidth="225.0" text="Регистрация" textFill="#310908">
+            <font>
+                <Font name="Times New Roman" size="42.0" />
+            </font>
+        </Label>
+        <TextField fx:id="name" layoutX="409.0" layoutY="175.0" prefHeight="38.0" prefWidth="400.0" promptText="Имя " style="-fx-border-color: silver;">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="surname" layoutX="409.0" layoutY="221.0" prefHeight="38.0" prefWidth="400.0" promptText="Фамилия" style="-fx-border-color: silver;">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="secondName" layoutX="409.0" layoutY="269.0" prefHeight="38.0" prefWidth="400.0" promptText="Отчество" style="-fx-border-color: silver;">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="login" layoutX="409.0" layoutY="316.0" prefHeight="38.0" prefWidth="400.0" promptText="Логин" style="-fx-border-color: silver;">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="password" layoutX="409.0" layoutY="364.0" prefHeight="38.0" prefWidth="400.0" promptText="Пароль" style="-fx-border-color: silver;">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="back" layoutX="409.0" layoutY="472.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="400.0" style="-fx-background-color: EAEEFB;" text="Уже есть аккаунт? Войти">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="saveChanges" layoutX="409.0" layoutY="433.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="400.0" style="-fx-background-color: #0065c1;" text="Создать аккаунт" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
